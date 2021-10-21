@@ -15,12 +15,12 @@ F:/__session_5/Jeu/Jeux/BananaIce
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59152
+65045
 Successfully changed project path to: F:/__session_5/Jeu/Jeux/BananaIce
 F:/__session_5/Jeu/Jeux/BananaIce
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 90.24 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 2.70 ms.
+Refreshing native plugins compatible for Editor in 116.38 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 2.62 ms.
 Initialize engine version: 2021.1.22f1 (a137e5fb0427)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.22f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path F:/__session_5/Jeu/Jeux/BananaIce/Assets
@@ -35,53 +35,53 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004016 seconds.
+Registered in 0.004597 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 91.16 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 101.69 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.616 seconds
+- Completed reload, in  2.993 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2616ms)
-		BeginReloadAssembly (82ms)
+	ReloadAssembly (2994ms)
+		BeginReloadAssembly (89ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (468ms)
-			LoadAssemblies (78ms)
+		EndReloadAssembly (552ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (163ms)
+			SetupTypeCache (190ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (224ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (261ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (91ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (95ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				RefreshPlugins (102ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (113ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009022 seconds.
+Registered in 0.011088 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image F:\__session_5\Jeu\Jeux\BananaIce\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image F:\__session_5\Jeu\Jeux\BananaIce\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 93.96 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 101.35 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.05 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
@@ -103,179 +103,45 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.428 seconds
+- Completed reload, in  1.563 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1428ms)
-		BeginReloadAssembly (177ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1181ms)
-			LoadAssemblies (119ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (397ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (526ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (94ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (312ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.86 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 3494 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.2 MB.
-System memory in use after: 134.4 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3942.
-Total: 3.432500 ms (FindLiveObjects: 0.243000 ms CreateObjectMapping: 0.152900 ms MarkObjects: 2.928600 ms  DeleteObjects: 0.107000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/CocoIce.unity
-  artifactKey: Guid(4e7919ca6905f5c41aabcdae689e1316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CocoIce.unity using Guid(4e7919ca6905f5c41aabcdae689e1316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3317e7c22809a5f803128b8e35ddc5') in 0.154897 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 30.784866 seconds.
-  path: Assets/Avatars
-  artifactKey: Guid(b3d1c842a7ac7409ea2522c36167b74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Avatars using Guid(b3d1c842a7ac7409ea2522c36167b74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d333f24a3f5d075ea6cf43afc649af') in 0.155599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.389446 seconds.
-  path: Assets/Scenes/Depart.unity
-  artifactKey: Guid(9d18ebdb217df034ebdaf545fb4d817f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Depart.unity using Guid(9d18ebdb217df034ebdaf545fb4d817f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a140ad8bf956c1c7e73ffa1ffb1d8e') in 0.136569 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 692.844756 seconds.
-  path: Assets/PolyArctic
-  artifactKey: Guid(8ebdd4c2d9cf761488c4d4c1b624c436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolyArctic using Guid(8ebdd4c2d9cf761488c4d4c1b624c436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d66bf1991cedfca167124602fafc24') in 0.042521 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.918805 seconds.
-  path: Assets/Runemark Studio
-  artifactKey: Guid(ed65178beea43e94f9ef39566867b66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio using Guid(ed65178beea43e94f9ef39566867b66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd13d34a89f6bbeab8b06f0a27e689a') in 0.040916 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.248361 seconds.
-  path: Assets/PolyArctic/Scenes
-  artifactKey: Guid(75133e22122558c4795961ec54342b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolyArctic/Scenes using Guid(75133e22122558c4795961ec54342b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea036da7507b0e28dcd4c108439aea39') in 0.148192 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010124 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\__session_5\Jeu\Jeux\BananaIce\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\__session_5\Jeu\Jeux\BananaIce\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.23 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.15 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in F:\__session_5\Jeu\Jeux\BananaIce\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in F:\__session_5\Jeu\Jeux\BananaIce\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <33fb8f3984d146e083d756d969c06738>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.506 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1506ms)
-		BeginReloadAssembly (162ms)
+	ReloadAssembly (1564ms)
+		BeginReloadAssembly (198ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (1270ms)
-			LoadAssemblies (157ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1285ms)
+			LoadAssemblies (133ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (479ms)
+			SetupTypeCache (424ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (466ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (559ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (110ms)
-				ProcessInitializeOnLoadAttributes (314ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (102ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (336ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.91 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 3480 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.4 MB.
-System memory in use after: 141.7 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3945.
-Total: 3.588100 ms (FindLiveObjects: 0.241400 ms CreateObjectMapping: 0.148200 ms MarkObjects: 3.150800 ms  DeleteObjects: 0.046900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.08 ms, found 6 plugins.
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.4 MB.
-System memory in use after: 65.7 MB.
+Unloading 3497 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.7 MB.
+System memory in use after: 134.9 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3945.
-Total: 4.205300 ms (FindLiveObjects: 0.256200 ms CreateObjectMapping: 0.157100 ms MarkObjects: 3.746100 ms  DeleteObjects: 0.044900 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3949.
+Total: 3.894800 ms (FindLiveObjects: 0.381200 ms CreateObjectMapping: 0.140500 ms MarkObjects: 3.275500 ms  DeleteObjects: 0.096700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -290,57 +156,158 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 510.855106 seconds.
-  path: Assets/mains
-  artifactKey: Guid(59722055eac33470dbc13a4aceee1db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mains using Guid(59722055eac33470dbc13a4aceee1db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f7a04ee080cdd83601587374de3bbd') in 0.048956 seconds 
+  path: Assets/PolyArctic/Prefabs/Environment/iceberg_06.prefab
+  artifactKey: Guid(6c0440a5767a34044bf97a1bd6f3305a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Environment/iceberg_06.prefab using Guid(6c0440a5767a34044bf97a1bd6f3305a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08ab9251ba513a5b321ed11d7cc9982') in 0.210273 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 86.468610 seconds.
-  path: Assets/mains/MainsAnimees
-  artifactKey: Guid(7c543536e875d3648a990c5bb44ed211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mains/MainsAnimees using Guid(7c543536e875d3648a990c5bb44ed211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496f908c081bec50508ed0dfa9fa584a') in 0.048473 seconds 
+  Time since last request: 0.000933 seconds.
+  path: Assets/PolyArctic/Meshes/Environment/Materials/IceSheet.mat
+  artifactKey: Guid(68bc100cb93c15642894b7cbe3340ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Meshes/Environment/Materials/IceSheet.mat using Guid(68bc100cb93c15642894b7cbe3340ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c00785c17a3029d88d46e3c968d897') in 0.120403 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.253208 seconds.
-  path: Assets/mains/MainsOriginales
-  artifactKey: Guid(4fd32acab52fb86408e5734180ef81f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mains/MainsOriginales using Guid(4fd32acab52fb86408e5734180ef81f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa3398975fa8fa39c7f21142dd8645fb') in 0.053191 seconds 
+  Time since last request: 0.000373 seconds.
+  path: Assets/PolyArctic/Meshes/Environment/Materials/Iceberg.mat
+  artifactKey: Guid(92a73160f69cfef4583945d76cbebab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Meshes/Environment/Materials/Iceberg.mat using Guid(92a73160f69cfef4583945d76cbebab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a80403fe0f9ad3cdbe4d29f040ffb44') in 0.068061 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.222440 seconds.
-  path: Assets/mains/materiaux
-  artifactKey: Guid(0d58a40a499244259a56b60407e81ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mains/materiaux using Guid(0d58a40a499244259a56b60407e81ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b0453dfb3243c2a99b362f3c26c7d0') in 0.156003 seconds 
+  Time since last request: 0.000333 seconds.
+  path: Assets/PolyArctic/Prefabs/Environment/icesheet_04.prefab
+  artifactKey: Guid(13ddc594732016a478fc83acd58f5ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Environment/icesheet_04.prefab using Guid(13ddc594732016a478fc83acd58f5ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94823fabd1f3919699320d3b156f40d') in 0.093498 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.352699 seconds.
-  path: Assets/Mains
-  artifactKey: Guid(59722055eac33470dbc13a4aceee1db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mains using Guid(59722055eac33470dbc13a4aceee1db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2f801a1bdc343108b7923833f54fce') in 0.041444 seconds 
+  Time since last request: 0.000509 seconds.
+  path: Assets/EnvironnementBase/Materials/TableTennisVice.mat
+  artifactKey: Guid(630253741f34dab42ae0bf774e7311aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnvironnementBase/Materials/TableTennisVice.mat using Guid(630253741f34dab42ae0bf774e7311aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feca65401b42c6d65f5c8083111413d0') in 0.118845 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.576804 seconds.
-  path: Assets/Environnement
-  artifactKey: Guid(41da23794a5ce4df8b7d38f7989957fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environnement using Guid(41da23794a5ce4df8b7d38f7989957fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f4e2844f6b54f8c3f2faa769e6d45c') in 0.138007 seconds 
+  Time since last request: 0.000341 seconds.
+  path: Assets/PolyArctic/Prefabs/Buildings/arctic_icecube_01.prefab
+  artifactKey: Guid(9b3c29c2593a5ec48b46758a721f8256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Buildings/arctic_icecube_01.prefab using Guid(9b3c29c2593a5ec48b46758a721f8256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66b7e3a6b9e2a2dfca6c7ff5642d012') in 0.138308 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.547239 seconds.
-  path: Assets/EnvironnementBase
-  artifactKey: Guid(41da23794a5ce4df8b7d38f7989957fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EnvironnementBase using Guid(41da23794a5ce4df8b7d38f7989957fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67465ff9f3e5654e1c2cc2565fe6d375') in 0.017253 seconds 
+  Time since last request: 0.000388 seconds.
+  path: Assets/PolyArctic/Prefabs/Environment/icesheet_01.prefab
+  artifactKey: Guid(6778e704cd5a1e2438349be6ba8ca403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Environment/icesheet_01.prefab using Guid(6778e704cd5a1e2438349be6ba8ca403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2570f193b9187c6c1d4df9780dfd3d3') in 0.084148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/PolyArctic/Meshes/Environment/arctic_icebergs.fbx
+  artifactKey: Guid(971310db5581ee34a9863f93ca700ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Meshes/Environment/arctic_icebergs.fbx using Guid(971310db5581ee34a9863f93ca700ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7000462ff0c2294bdf3edfe2602f5e') in 0.210881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/PolyArctic/Prefabs/Environment/iceberg_04.prefab
+  artifactKey: Guid(0dfb452cecaeb2e4ca952bd211518a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Environment/iceberg_04.prefab using Guid(0dfb452cecaeb2e4ca952bd211518a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1872095d8da91b5844d92d4cded2a6d') in 0.066818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/PolyArctic/Prefabs/Environment/iceberg_05.prefab
+  artifactKey: Guid(60c9794b2b8d61a4c9c7b90eb135064b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Environment/iceberg_05.prefab using Guid(60c9794b2b8d61a4c9c7b90eb135064b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c699b05b641b688b1ed9d77420d98f') in 0.099646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000693 seconds.
+  path: Assets/PolyArctic/Prefabs/Environment/iceberg_01.prefab
+  artifactKey: Guid(3f6a79977879487438126e3d2fb9973d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Environment/iceberg_01.prefab using Guid(3f6a79977879487438126e3d2fb9973d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e371736f5cd294d151caff55cc1cf08') in 0.110570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/PolyArctic/Prefabs/Buildings/arctic_icecube_02.prefab
+  artifactKey: Guid(2811dc5707bf5274ea31cb227a453f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Buildings/arctic_icecube_02.prefab using Guid(2811dc5707bf5274ea31cb227a453f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73cc10e02e9748987873f220d7788156') in 0.092328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000634 seconds.
+  path: Assets/PolyArctic/Prefabs/Environment/iceberg_03.prefab
+  artifactKey: Guid(92953189ad65f28478a8185464295a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Environment/iceberg_03.prefab using Guid(92953189ad65f28478a8185464295a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287e6ded3bd4f5e026d530959d3c8ec5') in 0.129343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/PolyArctic/Meshes/Buildings/arctic_igloo.fbx
+  artifactKey: Guid(70c7c19d46c34ca46a09e7cd78255773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Meshes/Buildings/arctic_igloo.fbx using Guid(70c7c19d46c34ca46a09e7cd78255773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302d846181e0b5d3dfe131789548855c') in 0.148256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/PolyArctic/Meshes/Environment/arctic_ice01.fbx
+  artifactKey: Guid(dac8204528595cd498223cfad0c2db53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Meshes/Environment/arctic_ice01.fbx using Guid(dac8204528595cd498223cfad0c2db53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b682fda6ecba04ee518e4c083afe9842') in 0.109145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/PolyArctic/Prefabs/Environment/icesheet_02.prefab
+  artifactKey: Guid(8c9289b2ccf66fa4386433b42309bde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Environment/icesheet_02.prefab using Guid(8c9289b2ccf66fa4386433b42309bde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb193ac3e00d5ca3b532b5a2736174c') in 0.084549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/PolyArctic/Prefabs/Environment/icesheet_03.prefab
+  artifactKey: Guid(2a7ab38c828f95449a9d21eb1abfd904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Environment/icesheet_03.prefab using Guid(2a7ab38c828f95449a9d21eb1abfd904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42fbbf688566ad2d2671f7f47faa820') in 0.068577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000519 seconds.
+  path: Assets/PolyArctic/Prefabs/Environment/iceberg_02.prefab
+  artifactKey: Guid(10eac296424c8884c899a27cc1ba242e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Environment/iceberg_02.prefab using Guid(10eac296424c8884c899a27cc1ba242e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843ad4c9dec695651c57f8427767148f') in 0.091288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 636.297609 seconds.
+  path: Assets/PolyArctic/Prefabs/Rocks/snowy_rock_03.prefab
+  artifactKey: Guid(1ee94b9b2d0266f4f900c96bb457d30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Rocks/snowy_rock_03.prefab using Guid(1ee94b9b2d0266f4f900c96bb457d30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e66428c0090f5b44c5a4ed9e25c1458') in 0.450614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.151842 seconds.
+  path: Assets/PolyArctic/Prefabs/Rocks/snowy_rock_04.prefab
+  artifactKey: Guid(22bbfdba5d926cb40b8620053fbf16c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Rocks/snowy_rock_04.prefab using Guid(22bbfdba5d926cb40b8620053fbf16c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46ea2b35b1027b041c67f41b0d1dbfe') in 0.093724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.393891 seconds.
+  path: Assets/PolyArctic/Prefabs/Rocks/snowy_rock_05.prefab
+  artifactKey: Guid(1f6398a0de716264fac19128a80f66a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Rocks/snowy_rock_05.prefab using Guid(1f6398a0de716264fac19128a80f66a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97724e0766cac85199789d01cb01cb5a') in 0.099153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.163178 seconds.
+  path: Assets/PolyArctic/Prefabs/Rocks/snowy_rock_06.prefab
+  artifactKey: Guid(f2507ddcda98bc64c8743a8634c6bafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Rocks/snowy_rock_06.prefab using Guid(f2507ddcda98bc64c8743a8634c6bafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce104ebed2bc1561fdb7c2632c685cb') in 0.084088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 709.996533 seconds.
+  path: Assets/PolyArctic/Prefabs/Props/Fireplace.prefab
+  artifactKey: Guid(8dc31f3ff6f6b37409912cdac30ff642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Props/Fireplace.prefab using Guid(8dc31f3ff6f6b37409912cdac30ff642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8d436f40a16784e61fb099cc98b5ab') in 0.186581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/PolyArctic/Prefabs/Props/arctic_snowshoe.prefab
+  artifactKey: Guid(98fb465c07e6c1b4e8cdaa7190453af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Props/arctic_snowshoe.prefab using Guid(98fb465c07e6c1b4e8cdaa7190453af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46eb018688c6fa6c4c3b1122375fda61') in 0.090017 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011296 seconds.
+Registered in 0.010503 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image F:\__session_5\Jeu\Jeux\BananaIce\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image F:\__session_5\Jeu\Jeux\BananaIce\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.58 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
+Refreshing native plugins compatible for Editor in 0.78 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in F:\__session_5\Jeu\Jeux\BananaIce\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in F:\__session_5\Jeu\Jeux\BananaIce\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
@@ -357,43 +324,43 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.646 seconds
+- Completed reload, in  1.483 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1646ms)
-		BeginReloadAssembly (182ms)
+	ReloadAssembly (1483ms)
+		BeginReloadAssembly (177ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (59ms)
-		EndReloadAssembly (1381ms)
-			LoadAssemblies (161ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1225ms)
+			LoadAssemblies (142ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (502ms)
+			SetupTypeCache (446ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (494ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (454ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (97ms)
-				ProcessInitializeOnLoadAttributes (353ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (345ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
 				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.88 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
 Unloading 3482 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.6 MB.
-System memory in use after: 141.8 MB.
+System memory in use before: 146.3 MB.
+System memory in use after: 146.5 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3950.
-Total: 5.204200 ms (FindLiveObjects: 0.420400 ms CreateObjectMapping: 0.161800 ms MarkObjects: 4.603600 ms  DeleteObjects: 0.017700 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3995.
+Total: 4.463600 ms (FindLiveObjects: 0.500800 ms CreateObjectMapping: 0.216400 ms MarkObjects: 3.678100 ms  DeleteObjects: 0.067000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -409,122 +376,206 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 324.375376 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.154493 seconds 
+  Time since last request: 5.513192 seconds.
+  path: Assets/PolyArctic/Prefabs/Props/Rack.prefab
+  artifactKey: Guid(ad6e7b1cf029b6c4cab15dee817ee5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Props/Rack.prefab using Guid(ad6e7b1cf029b6c4cab15dee817ee5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a34ec5a6b91322b50660d9752cc716') in 0.158697 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 36.776016 seconds.
-  path: Assets/AutresAssests
-  artifactKey: Guid(9b02ac4bf7d30f848a51aafb94eff5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AutresAssests using Guid(9b02ac4bf7d30f848a51aafb94eff5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1923b35d717fa72c8fcd8776d341365') in 0.037080 seconds 
+  Time since last request: 10.637504 seconds.
+  path: Assets/PolyArctic/Prefabs/Environment/Mountains_01.prefab
+  artifactKey: Guid(ac3d36893bf6ea342b1e1ec547122b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Environment/Mountains_01.prefab using Guid(ac3d36893bf6ea342b1e1ec547122b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0902526e863b70c23bdfeb5c3c3594f3') in 0.178785 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.695414 seconds.
-  path: Assets/Samples
-  artifactKey: Guid(8db156a088706bb499f4aa6e51575125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples using Guid(8db156a088706bb499f4aa6e51575125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00800f11b10d1db02f58513c6d414fce') in 0.160232 seconds 
+  Time since last request: 74.364934 seconds.
+  path: Assets/PolyArctic/Prefabs/Buildings/arctic_igloo.prefab
+  artifactKey: Guid(cb5f00894e287f04cb5e1246ff0ef929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Buildings/arctic_igloo.prefab using Guid(cb5f00894e287f04cb5e1246ff0ef929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e15372c2dcfc6476963fa462f872f7') in 0.601146 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.962259 seconds.
-  path: Assets/AutresAssests/Regulobana.fbx
-  artifactKey: Guid(1c72ccaec50092e4f8c09b4e922bfb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AutresAssests/Regulobana.fbx using Guid(1c72ccaec50092e4f8c09b4e922bfb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314425d406a04c88beffae3f1c2fba38') in 0.609771 seconds 
+  Time since last request: 0.594846 seconds.
+  path: Assets/PolyArctic/Prefabs/Buildings/arctic_igloo_unf.prefab
+  artifactKey: Guid(a38b378e54df3374b874fb6d5c5c4a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Buildings/arctic_igloo_unf.prefab using Guid(a38b378e54df3374b874fb6d5c5c4a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa614f07ebf30719f8b674695955782') in 0.102111 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.940931 seconds.
-  path: Assets/AutresAssests/BananeDoree.fbx
-  artifactKey: Guid(309ac9e667bad004b8610f972026ece8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AutresAssests/BananeDoree.fbx using Guid(309ac9e667bad004b8610f972026ece8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5670558be344c14ba19806a85afec8b') in 0.498301 seconds 
+  Time since last request: 78.009593 seconds.
+  path: Assets/PolyArctic/Prefabs/Buildings/arctic_tent_02.prefab
+  artifactKey: Guid(047fa997926945444a4aaf9282505359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Buildings/arctic_tent_02.prefab using Guid(047fa997926945444a4aaf9282505359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce09cdc16ce73e6e8c49299535767b28') in 0.167946 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.962827 seconds.
-  path: Assets/AutresAssests/Bananaglace.fbx
-  artifactKey: Guid(6115bbf73f4529b49be833163a35da8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AutresAssests/Bananaglace.fbx using Guid(6115bbf73f4529b49be833163a35da8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7eebc79bfd8d7ef87068bafa23291cf') in 0.306804 seconds 
+  Time since last request: 32.142918 seconds.
+  path: Assets/PolyArctic/Prefabs/Buildings/arctic_tent_01.prefab
+  artifactKey: Guid(f2f1dc80a4823f140b7dd5474a93bfb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Buildings/arctic_tent_01.prefab using Guid(f2f1dc80a4823f140b7dd5474a93bfb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b5319411997dee55102ef04caa9631') in 0.576863 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.640281 seconds.
-  path: Assets/AutresAssests/Bananafeu.fbx
-  artifactKey: Guid(4cea7e54418b81d4c89e3ec50735b61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AutresAssests/Bananafeu.fbx using Guid(4cea7e54418b81d4c89e3ec50735b61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a062209dc8dd88e0facc3e81109066c') in 0.127927 seconds 
+  Time since last request: 21.684610 seconds.
+  path: Assets/PolyArctic/Prefabs/Props/arctic_kayak_paddle.prefab
+  artifactKey: Guid(e3c2300640c8c3c4eaec72d34aeed304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Props/arctic_kayak_paddle.prefab using Guid(e3c2300640c8c3c4eaec72d34aeed304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28baaad3fe583ebd35fabd757a51a70c') in 0.146407 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 43.006707 seconds.
-  path: Assets/AutresAssests/BananeDoree.fbx
-  artifactKey: Guid(309ac9e667bad004b8610f972026ece8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AutresAssests/BananeDoree.fbx using Guid(309ac9e667bad004b8610f972026ece8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6231a36894e38900015427769a6e4ba3') in 0.109893 seconds 
+  Time since last request: 0.391679 seconds.
+  path: Assets/PolyArctic/Prefabs/Props/arctic_kayak.prefab
+  artifactKey: Guid(e34e32e91f5ff8945a0fd8853396bc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Props/arctic_kayak.prefab using Guid(e34e32e91f5ff8945a0fd8853396bc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c53589fcf01526733b6919dff761fee') in 0.106628 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 37.114153 seconds.
-  path: Assets/AutresAssests/Materiaux
-  artifactKey: Guid(6c4766ea2dc9e1d4c83616ac21634672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AutresAssests/Materiaux using Guid(6c4766ea2dc9e1d4c83616ac21634672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf9d8ac4c1eb564cb0b2b3de3853690') in 0.062040 seconds 
+  Time since last request: 2.891973 seconds.
+  path: Assets/PolyArctic/Prefabs/Props/arctic_pole_01.prefab
+  artifactKey: Guid(2d4ff768e5498b540b5d67576b68dee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Props/arctic_pole_01.prefab using Guid(2d4ff768e5498b540b5d67576b68dee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7a52bdc5a8af65081ecddde6429cf5') in 0.094220 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 112.153538 seconds.
-  path: Assets/AutresAssests/BananeDoree.prefab
-  artifactKey: Guid(2121d93a253bb694caa0766281c203c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AutresAssests/BananeDoree.prefab using Guid(2121d93a253bb694caa0766281c203c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abdf180617c8edbf5d057c3666ccac09') in 0.082801 seconds 
+  Time since last request: 1.102633 seconds.
+  path: Assets/PolyArctic/Prefabs/Props/arctic_pole_02.prefab
+  artifactKey: Guid(64188b839d11c934a89f96b754dd753f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Props/arctic_pole_02.prefab using Guid(64188b839d11c934a89f96b754dd753f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28659e734fa3d59d62da82e1870332cf') in 0.186563 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 41.466749 seconds.
-  path: Assets/AutresAssests/BananeDoreeSansMat.fbx
-  artifactKey: Guid(309ac9e667bad004b8610f972026ece8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AutresAssests/BananeDoreeSansMat.fbx using Guid(309ac9e667bad004b8610f972026ece8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3b4ed57b6ebffb42309a310488cbe5') in 0.118279 seconds 
+  Time since last request: 0.853626 seconds.
+  path: Assets/PolyArctic/Prefabs/Props/arctic_pole_03.prefab
+  artifactKey: Guid(73a5473dabb02ff43827a8c74fed4c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Props/arctic_pole_03.prefab using Guid(73a5473dabb02ff43827a8c74fed4c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c2326941ba61ee3520383b700e1ad3') in 0.080985 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.820129 seconds.
-  path: Assets/AutresAssests/BananeDoreeAvecMat.prefab
-  artifactKey: Guid(2121d93a253bb694caa0766281c203c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AutresAssests/BananeDoreeAvecMat.prefab using Guid(2121d93a253bb694caa0766281c203c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a432b0b24790206b135c506fce02845') in 0.097809 seconds 
+  Time since last request: 0.574397 seconds.
+  path: Assets/PolyArctic/Prefabs/Props/arctic_sled.prefab
+  artifactKey: Guid(01dcc0c4806926146b54925c615c9b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Props/arctic_sled.prefab using Guid(01dcc0c4806926146b54925c615c9b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22081a154ce61c9a88819d2ce98d0752') in 0.112644 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 119.099945 seconds.
-  path: Assets/CocoIce.unity
-  artifactKey: Guid(4e7919ca6905f5c41aabcdae689e1316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CocoIce.unity using Guid(4e7919ca6905f5c41aabcdae689e1316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78c31780782fde000d15f7b3dc6e27d') in 0.451379 seconds 
+  Time since last request: 52.120636 seconds.
+  path: Assets/PolyArctic/Prefabs/Props/arctic_fish.prefab
+  artifactKey: Guid(5cca94e2b9bce734d9eddc7cfe8f10d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Props/arctic_fish.prefab using Guid(5cca94e2b9bce734d9eddc7cfe8f10d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b427c3115332cc01d225bdcb8da21d39') in 0.509911 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 44.062859 seconds.
-  path: Assets/CocoIce.unity
-  artifactKey: Guid(4e7919ca6905f5c41aabcdae689e1316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CocoIce.unity using Guid(4e7919ca6905f5c41aabcdae689e1316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0f97523b07a0a271b9db8f4644a591') in 0.373955 seconds 
+  Time since last request: 1.351622 seconds.
+  path: Assets/PolyArctic/Prefabs/Props/arctic_fishrack_empty.prefab
+  artifactKey: Guid(fac0f7b2bad6ba647a2481fc13f49f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Props/arctic_fishrack_empty.prefab using Guid(fac0f7b2bad6ba647a2481fc13f49f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c2702a7d1b7283c6dc12849ea1fd64') in 0.126539 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.263303 seconds.
-  path: Assets/CocoIce.unity
-  artifactKey: Guid(4e7919ca6905f5c41aabcdae689e1316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CocoIce.unity using Guid(4e7919ca6905f5c41aabcdae689e1316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89f4418300d0c5bf58fc1f82059eb9d') in 0.144119 seconds 
+  Time since last request: 1.534339 seconds.
+  path: Assets/PolyArctic/Prefabs/Props/arctic_fishrack_full.prefab
+  artifactKey: Guid(319bf017fc806514a8f14f5435b04edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Props/arctic_fishrack_full.prefab using Guid(319bf017fc806514a8f14f5435b04edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0d125037feca76cddf5d54aba0642e') in 0.086261 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 121.388244 seconds.
-  path: Assets/CocoIce.unity
-  artifactKey: Guid(4e7919ca6905f5c41aabcdae689e1316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CocoIce.unity using Guid(4e7919ca6905f5c41aabcdae689e1316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e22c9e5005d4453702cfc99b122368') in 0.142386 seconds 
+  Time since last request: 62.182870 seconds.
+  path: Assets/PolyArctic/Prefabs/Buildings/arctic_tentpoles.prefab
+  artifactKey: Guid(ebe9f3cc39178fe4585caf2b18a820cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Buildings/arctic_tentpoles.prefab using Guid(ebe9f3cc39178fe4585caf2b18a820cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5e03987fe9a9cc694a8679564c1a59') in 0.584768 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 31.781292 seconds.
-  path: Assets/Scenes/eclairageScene
-  artifactKey: Guid(2440226735d7646bea2f3f74a9ddcdeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/eclairageScene using Guid(2440226735d7646bea2f3f74a9ddcdeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0880c7ff587579467703a78d8984bcbd') in 0.195228 seconds 
+  Time since last request: 215.610781 seconds.
+  path: Assets/PolyArctic/Prefabs/Props/Snowshoe_pair.prefab
+  artifactKey: Guid(4db0c42cd244f6048bfae959f2d54c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Props/Snowshoe_pair.prefab using Guid(4db0c42cd244f6048bfae959f2d54c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834f15e164da44218dccf113da4df4ee') in 0.622913 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.452392 seconds.
-  path: Assets/Eclairage
-  artifactKey: Guid(2440226735d7646bea2f3f74a9ddcdeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Eclairage using Guid(2440226735d7646bea2f3f74a9ddcdeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb4a4d677a86556cd18e05c3a31f842') in 0.096507 seconds 
+  Time since last request: 364.646207 seconds.
+  path: Assets/PolyArctic/Prefabs/Vegetation/MossPatch_01.prefab
+  artifactKey: Guid(136286c2043a4cc40bcf0467359c96d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Vegetation/MossPatch_01.prefab using Guid(136286c2043a4cc40bcf0467359c96d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3567fa65660bd7f3ecfc59fad1d0fd') in 0.134464 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.735190 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(9b4f815b5073f66438c8cc3d01e42b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(9b4f815b5073f66438c8cc3d01e42b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2a403a1d562949323ef8ee5a4418dc') in 0.149489 seconds 
+  Time since last request: 0.420133 seconds.
+  path: Assets/PolyArctic/Prefabs/Vegetation/MossPatch_02.prefab
+  artifactKey: Guid(1549ed1f8596a2047a211627460189fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Vegetation/MossPatch_02.prefab using Guid(1549ed1f8596a2047a211627460189fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f573872d8c136727c09e863b0b02adeb') in 0.111420 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.154403 seconds.
-  path: Assets/CocoIce.unity
-  artifactKey: Guid(4e7919ca6905f5c41aabcdae689e1316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CocoIce.unity using Guid(4e7919ca6905f5c41aabcdae689e1316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8aa72701cbb0beb5f57df47957abab7') in 0.129054 seconds 
+  Time since last request: 1.069354 seconds.
+  path: Assets/PolyArctic/Prefabs/Vegetation/arctic_shrub_berry.prefab
+  artifactKey: Guid(e21ef0cf02d6e28408f308d8e0adc444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Vegetation/arctic_shrub_berry.prefab using Guid(e21ef0cf02d6e28408f308d8e0adc444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694c34904d602df1b53e98b6395b54eb') in 0.103521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.883690 seconds.
+  path: Assets/PolyArctic/Prefabs/Vegetation/arctic_shrub.prefab
+  artifactKey: Guid(a932500e01f4ecd46a0569576a1f2f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Vegetation/arctic_shrub.prefab using Guid(a932500e01f4ecd46a0569576a1f2f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e050cfddbf8eb79ce21becfdf65e2860') in 0.088951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.742026 seconds.
+  path: Assets/PolyArctic/Prefabs/Vegetation/arctic_branch_06.prefab
+  artifactKey: Guid(9e4bdb8c8559ce6418c8b61b42d199e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Vegetation/arctic_branch_06.prefab using Guid(9e4bdb8c8559ce6418c8b61b42d199e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228f044cb9a96ee30d3c64b558bd0f40') in 0.085599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.071547 seconds.
+  path: Assets/PolyArctic/Prefabs/Vegetation/arctic_branch_05.prefab
+  artifactKey: Guid(1e3b7c129f83e634e854fc205ed15687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Vegetation/arctic_branch_05.prefab using Guid(1e3b7c129f83e634e854fc205ed15687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6295c30adab924629cd99f5f917c7861') in 0.167459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.279896 seconds.
+  path: Assets/PolyArctic/Prefabs/Vegetation/arctic_branch_04.prefab
+  artifactKey: Guid(36d81e492ed4a6445989b9d51a7b5b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Vegetation/arctic_branch_04.prefab using Guid(36d81e492ed4a6445989b9d51a7b5b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14648f6318fed142a047426d905576f') in 0.196527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.183846 seconds.
+  path: Assets/PolyArctic/Prefabs/Vegetation/arctic_branch_03.prefab
+  artifactKey: Guid(f5761d445ebfafa4f8a9f137b3d59b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Vegetation/arctic_branch_03.prefab using Guid(f5761d445ebfafa4f8a9f137b3d59b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95542a57fc6b8c6efdb877b3d07021c7') in 0.088410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 416.406779 seconds.
+  path: Assets/Lowpoly_Crates
+  artifactKey: Guid(2a7778a7a59d7d7458209465e6cf56a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly_Crates using Guid(2a7778a7a59d7d7458209465e6cf56a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a13e578fe9dd94b7a2ca1412cf58888a') in 0.054487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.580874 seconds.
+  path: Assets/Lowpoly_Crates/Meshes
+  artifactKey: Guid(65dc1f590252f0248ae5781ed0e5c4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly_Crates/Meshes using Guid(65dc1f590252f0248ae5781ed0e5c4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f1c03c9d9c6c6d200736b6cf66248a') in 0.145149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.373414 seconds.
+  path: Assets/Lowpoly_Crates/Meshes/Crate_02.fbx
+  artifactKey: Guid(12551519c72530748bcfb060dfc2db09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly_Crates/Meshes/Crate_02.fbx using Guid(12551519c72530748bcfb060dfc2db09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b37f2d158d19990ef3c21fb1d664c2d') in 0.201103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.436846 seconds.
+  path: Assets/Lowpoly_Crates/Materials
+  artifactKey: Guid(12ad1829665e54d43bb2d70241c4176e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly_Crates/Materials using Guid(12ad1829665e54d43bb2d70241c4176e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7261c50743393efacb9e5ebdcee1689') in 0.141690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 283.615278 seconds.
+  path: Assets/PolyArctic/Prefabs/Props
+  artifactKey: Guid(037a78e80c670ad4486fd9bf34b48302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Prefabs/Props using Guid(037a78e80c670ad4486fd9bf34b48302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950b2e383e7646d0b0320bcc7d8d5330') in 0.491280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.417813 seconds.
+  path: Assets/PolyArctic/Meshes
+  artifactKey: Guid(ae487459ef03f9a4bbc4249a8b75f3e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Meshes using Guid(ae487459ef03f9a4bbc4249a8b75f3e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed5e3e7ff37f53ecad27f17e21df9314') in 0.037547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.995619 seconds.
+  path: Assets/PolyArctic/Meshes/Buildings/Materials
+  artifactKey: Guid(96758892b88c7a74cb959ae9a83a75de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyArctic/Meshes/Buildings/Materials using Guid(96758892b88c7a74cb959ae9a83a75de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23d6d2a3456c33797e89a90ad531363') in 0.148440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 198.966465 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95df672b4aaba54310d34c83eef51bb8') in 0.063882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 198.413246 seconds.
+  path: Assets/Coconut.prefab
+  artifactKey: Guid(c7d84dfb083e837479047ed50d6d2e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Coconut.prefab using Guid(c7d84dfb083e837479047ed50d6d2e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d713c09b54842e727a1a7ae16c99f07') in 0.139947 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
