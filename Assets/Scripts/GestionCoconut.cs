@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GestionScoreCoconut : MonoBehaviour
+public class GestionCoconut : MonoBehaviour
 {
     public GameObject score;
     // Start is called before the first frame update
