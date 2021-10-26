@@ -11,11 +11,12 @@ public class CreationBananes : MonoBehaviour
     public float limiteY2;
     public float limiteZ1;
     public float limiteZ2;
+    public float vitesseSpawnBananes;
 
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("CreationBanane", 1f, 1f);
+        InvokeRepeating("CreationBanane", 1f, vitesseSpawnBananes);
     }
 
     public void CreationBanane()
