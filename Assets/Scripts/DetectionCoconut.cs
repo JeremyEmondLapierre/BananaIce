@@ -4,26 +4,15 @@ using UnityEngine;
 
 public class DetectionCoconut : MonoBehaviour
 {
+    //Déclaration des GameObject utile dans le jeu
+    public GameObject Coconut; //Prefab de la coconut
 
-    public GameObject Coconut;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    void OnCollisionEnter(Collision infoCollision){
-        if(infoCollision.gameObject.name== "Coconut"){
-            
-        }
-        else{
-            Instantiate(Coconut, new Vector3(9.477f,-33.962f,-175.476f), gameObject.transform.rotation);
+    //Fonction qui sert à détecter quand il ne reste que 3 coconuts dans le bac. Génération d'une nouvelle
+    void OnTriggerExit(Collider infoCollision){
+        //Si le détecteur ne touche plus à une coconut...
+        if(infoCollision.gameObject.tag== "Coconut"){
+            //Instantiate la coconut
+            Instantiate(Coconut, gameObject.transform.position, gameObject.transform.rotation);
         }
     }
 }

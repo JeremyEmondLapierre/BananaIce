@@ -12,6 +12,7 @@ public class CreationBananes : MonoBehaviour
     public float limiteZ1;
     public float limiteZ2;
     public float vitesseSpawnBananes;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,9 @@ public class CreationBananes : MonoBehaviour
 
     public void CreationBanane()
     {
-        Instantiate(bananes[Random.Range(0, bananes.Length)], new Vector3(Random.Range(limiteX1, limiteX2), Random.Range(limiteY1, limiteY2), Random.Range(limiteZ1, limiteZ2)), gameObject.transform.rotation);
+        GameObject NouvelleBanane = Instantiate(bananes[Random.Range(0, bananes.Length)], new Vector3(Random.Range(limiteX1, limiteX2), Random.Range(limiteY1, limiteY2), Random.Range(limiteZ1, limiteZ2)), gameObject.transform.rotation);
+        if(NouvelleBanane.name == "BananeDoree(Clone)"){
+            Destroy(NouvelleBanane.gameObject, 10f);
+        }
     }
 }
