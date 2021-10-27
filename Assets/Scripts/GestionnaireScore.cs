@@ -10,18 +10,14 @@ public class GestionnaireScore : MonoBehaviour
     public GameObject TexteScore;
     //Variable pour doubler le score ou nopn
     public static bool Double=false;
-
-    void Start()
-    {
-
-    }
-
+    
     void Update()
     {
         //On update toujours le score
         if(Score < 200){
             TexteScore.GetComponent<TextMesh>().text = Score.ToString();
         }
+        //Si on atteint 200 de scores... on gagne!
         else{
             TexteScore.GetComponent<TextMesh>().text = "Gagné!";
         }
