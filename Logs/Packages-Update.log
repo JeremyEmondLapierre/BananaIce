@@ -113,3 +113,12 @@ Update Mode: updateDependencies
 
 The following packages were updated:
   com.unity.collab-proxy from version 1.9.0 to 1.13.5
+
+=== Wed Oct 27 08:03:14 2021
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.timeline from version 1.5.6 to 1.6.2
+  com.unity.visualscripting from version 1.6.1 to 1.7.2
